@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{33FC497F-C2DE-4556-B131-5071722415D4}"
 	ProjectSection(SolutionItems) = preProject
 		C:\Users\jugde\Documents\SQL Server Management Studio\Customer.sql = C:\Users\jugde\Documents\SQL Server Management Studio\Customer.sql
+		Data.sql = Data.sql
 		C:\Users\jugde\Documents\SQL Server Management Studio\Transaction.sql = C:\Users\jugde\Documents\SQL Server Management Studio\Transaction.sql
 	EndProjectSection
 EndProject
