@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _2C2P.CustomerInquiry.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -11,9 +12,19 @@ namespace _2C2P.CustomerInquiry.Core.Controllers
 {
     public class CustomerController : ApiController
     {
-        public HttpResponseMessage Transactions()
+        public HttpResponseMessage Transactions(int customerId = 0, string email = "")
         {
-            return Request.CreateResponse(HttpStatusCode.NotFound);
+            if (customerId != 0 || !string.IsNullOrEmpty(email))
+            {
+                if (true)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { });
+                }
+
+                return Request.CreateResponse(HttpStatusCode.NotFound);
+            }
+
+            return Request.CreateResponse(HttpStatusCode.BadRequest);
         }
     }
 }

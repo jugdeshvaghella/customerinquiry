@@ -70,6 +70,14 @@
       <Project>{1d5f9481-7982-4330-b8e6-0d37d2a545d1}</Project>
       <Name>2C2P.CustomerInquiry.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\2C2P.CustomerInquiry.DAO\2C2P.CustomerInquiry.DAO.csproj">
+      <Project>{46acb01c-2de1-4e05-9f63-03bbe4d757a9}</Project>
+      <Name>2C2P.CustomerInquiry.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2C2P.CustomerInquiry.Entities\2C2P.CustomerInquiry.Entities.csproj">
+      <Project>{bcf1d457-38c3-465e-a8ba-f75aac7282a4}</Project>
+      <Name>2C2P.CustomerInquiry.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CustomerInquiry.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CustomerInquiry.Test", "2C2P.CustomerInquiry.Test\2C2P.CustomerInquiry.Test.csproj", "{9874C2BB-BBCC-4ADD-8EB3-49A7FF8261CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CustomerInquiry.DAO", "2C2P.CustomerInquiry.DAO\2C2P.CustomerInquiry.DAO.csproj", "{46ACB01C-2DE1-4E05-9F63-03BBE4D757A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CustomerInquiry.Entities", "2C2P.CustomerInquiry.Entities\2C2P.CustomerInquiry.Entities.csproj", "{BCF1D457-38C3-465E-A8BA-F75AAC7282A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{33FC497F-C2DE-4556-B131-5071722415D4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\jugde\Documents\SQL Server Management Studio\Customer.sql = C:\Users\jugde\Documents\SQL Server Management Studio\Customer.sql
+		C:\Users\jugde\Documents\SQL Server Management Studio\Transaction.sql = C:\Users\jugde\Documents\SQL Server Management Studio\Transaction.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +37,14 @@ Global
 		{9874C2BB-BBCC-4ADD-8EB3-49A7FF8261CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9874C2BB-BBCC-4ADD-8EB3-49A7FF8261CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9874C2BB-BBCC-4ADD-8EB3-49A7FF8261CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ACB01C-2DE1-4E05-9F63-03BBE4D757A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ACB01C-2DE1-4E05-9F63-03BBE4D757A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ACB01C-2DE1-4E05-9F63-03BBE4D757A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ACB01C-2DE1-4E05-9F63-03BBE4D757A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF1D457-38C3-465E-A8BA-F75AAC7282A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF1D457-38C3-465E-A8BA-F75AAC7282A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF1D457-38C3-465E-A8BA-F75AAC7282A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF1D457-38C3-465E-A8BA-F75AAC7282A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
