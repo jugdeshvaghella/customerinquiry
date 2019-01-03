@@ -10,6 +10,8 @@ namespace _2C2P.CustomerInquiry.DAO
 {
     public class CustomerInquiryContext : DbContext
     {
+        public CustomerInquiryContext() : base("name=CustomerInquiryConnectionString") { }
+
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Transaction> Transctions { get; set; }
     }

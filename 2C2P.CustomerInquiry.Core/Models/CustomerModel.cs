@@ -13,7 +13,7 @@ namespace _2C2P.CustomerInquiry.Core.Models
             Transactions = new List<TransactionModel>();
         }
 
-        public int CustomerId { get; set; }
+        public decimal CustomerId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
